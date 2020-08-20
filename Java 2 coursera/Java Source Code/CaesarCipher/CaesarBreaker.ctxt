@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=CaesarBreaker
+comment1.params=input\ key
+comment1.target=java.lang.String\ encrypt(java.lang.String,\ int)
+comment2.params=message\ full
+comment2.target=int\ getKey(java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=void\ testDecrypt()
+comment3.text=public\ int\ counLetters\r\n\ \ \ \ public\ int\ getKey(String\ message){\r\n\ \ \ \ \ \ \ \ CaesarCipher\ cc\ \=\ new\ CaesarCipher();\r\n\ \ \ \ \ \ \ \ int[]\ freps\ \=\ counLetters(message);\r\n\ \ \ \ \ \ \ \ int\ maxDex\ \=\ maxIndex(freqs);\r\n\ \ \ \ \ \ \ \ int\ key\ \=\ maxDex\ -\ 4;\r\n\ \ \ \ \ \ \ \ if(maxDex\ <\ 4){\r\n\ \ \ \ \ \ \ \ \ \ \ \ key\ \=\ 26\ -\ (4\ -\ maxDex);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ return\ key;\r\n}
+numComments=4

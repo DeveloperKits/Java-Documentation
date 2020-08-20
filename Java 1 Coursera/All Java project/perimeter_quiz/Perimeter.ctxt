@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Perimeter
+comment1.params=s
+comment1.target=double\ getPerimeter(edu.duke.Shape)
+comment2.params=
+comment2.target=void\ testPerimeter()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=public\ void\ triangle(){\r\n\ \ \ \ \ \ \ \ Shape\ triangle\ \=\ new\ Shape();\r\n\ \ \ \ \ \ \ \ triangle.addPoint(new\ Point(0,0));\r\n\ \ \ \ \ \ \ \ triangle.addPoint(new\ Point(6,0));\r\n\ \ \ \ \ \ \ \ triangle.addPoint(new\ Point(3,6));\r\n\ \ \ \ \ \ \ \ for\ (Point\ p\ \:\ triangle.getPoints()){\r\n\ \ \ \ \ \ \ \ \ \ \ \ System.out.println(p);\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ double\ peri\ \=\ getPerimeter(triangle);\r\n\ \ \ \ \ \ \ \ System.out.println("perimeter\ \=\ "+peri);\r\n}
+numComments=4

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=GladLibs
+comment1.params=
+comment1.target=GladLibs()
+comment2.params=source
+comment2.target=GladLibs(java.lang.String)
+comment3.params=source
+comment3.target=void\ initiallizeFromSource(java.lang.String)
+numComments=4

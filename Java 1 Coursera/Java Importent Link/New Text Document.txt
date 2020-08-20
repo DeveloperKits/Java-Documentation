@@ -1,0 +1,14 @@
+Duke University :
+Java Project Resource :
+https://www.dukelearntoprogram.com//course2/files.php
+
+
+
+Course Documentation :
+https://www.dukelearntoprogram.com//course2/doc/javadoc/index.html?course=2
+
+
+java 2 :
+All documentation : http://www.dukelearntoprogram.com/course3/index.php
+
+BlueJ video : https://www.youtube.com/playlist?list=PLYPWr4ErjcnzWB95MVvlKArO6PIfv1fHd

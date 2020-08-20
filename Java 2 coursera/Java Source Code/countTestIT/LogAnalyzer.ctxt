@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=LogAnalyzer
+comment1.params=
+comment1.target=LogAnalyzer()
+comment2.params=filename
+comment2.target=void\ readFile(java.lang.String)
+comment3.params=
+comment3.target=java.util.HashMap\ countVisitsperIP()
+comment3.text=public\ int\ countUniqueIPs(){\r\n\ \ \ \ \ \ \ \ \ ArrayList<String>\ uniqueIPs\ \=\ new\ ArrayList<String>();\r\n\ \ \ \ \ \ \ \ \ for(LogEntry\ le\ \:\ records){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ String\ ipAddr\ \=\ le.getIpAddress();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ if(\!uniqueIPs.contains(ipAddr)){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ uniqueIPs.add(ipAddr);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ return\ uniqueIPs.size();\r\n}
+numComments=4
